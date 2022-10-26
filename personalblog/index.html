@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+
+<body>
+    <div class="home">
+        <div class="content">
+            <div class="stars"></div>
+            <img class="bgc" src="./img/img8.jpg" width="100%" alt="">
+            <h3 class="title">我心里有一簇迎着烈日而生的花，比一切美酒都要芬芳，滚烫的馨香淹没过稻草人的胸膛</h3>
+            <h3 class="title2">草扎的精神，从此万寿无疆</h3>
+            <h3 class="titles">Welcome TO LY</h3>
+            <img class="icon" src="./img/down.png" alt="">
+            <div class='ribbon'>
+                <a href='./index.html'><span>Home</span></a>
+                <a href='./about.html'><span>About</span></a>
+                <a href='./daily.html'><span>Daily</span></a>
+                <a href='./form.html'><span>Form</span></a>
+
+            </div>
+
+        </div>
+        <div class="icons">
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="./img/lvtu.png" alt="">
+                <span>个人信息</span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="./img/ms.png" alt="">
+                <span>项目经历</span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="./img/zp.png" alt="">
+                <span>我的照片</span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="./img/yinlehe.png" alt="">
+                <span>我的规划</span>
+            </div>
+        </div>
+        <div class="introduce">
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="./img/s24.png" alt="">
+                <span class="introduce_item_title">个人信息</span>
+
+            </div>
+            <div class="introduce_item">
+
+                <span class="introduce_item_titles">项目经历</span>
+                <img class="introduce_item_img" src="./img/s8.png" alt="">
+            </div>
+
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="./img/s10.jpg" alt="">
+                <span class="introduce_item_title">我的照片</span>
+            </div>
+            <div class="introduce_item">
+                <span class="introduce_item_titles">我的规划</span>
+                <img class="introduce_item_img" src="./img/s6.jpg" alt="">
+            </div>
+        </div>
+        <audio autoplay="autoplay" loop="loop" id="audio" loop="loop">
+                <source src="./周杰伦 - 兰亭序 (纯音乐).mp3" type="audio/MP3">
+               
+        </audio>
+        <img class="music_img" src="./img/木琴.png" alt="">
+    </div>
+
+</body>
+<script>
+    let mucics = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function() {
+        setTimeout(() => {
+            mucics.play();
+        }, 2000);
+    }, false);
+</script>
+</html>
